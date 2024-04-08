@@ -26,3 +26,7 @@ class LinearRegression:
     def predict(self, X):
         y_pred = np.dot(X, self.weights) + self.bias
         return y_pred
+
+
+X = np.array([[1, 2, 3], [1, 1, 1]])
+
